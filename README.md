@@ -264,5 +264,20 @@ As mentioned above, we also conducted testing in 7 different environments of the
     <td align="center">0.345</td>
     <td align="center"><b>0.468</b></td>
   </tr>
+</table>
 
+## 📸 Model Prediction Examples
+
+|                                                 Ground Truth                                                |                                                        YOLOv11x                                                       |                                                        YOLOv10x                                                       |                                                       YOLOv8x                                                       |
+| :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| <img src="examples/duo_case1_gt.jpg" width="150"/> <br/> <img src="examples/duo_case2_gt.jpg" width="150"/> | <img src="examples/duo_case1_yolov11.jpg" width="150"/> <br/> <img src="examples/duo_case2_yolov11.jpg" width="150"/> | <img src="examples/duo_case1_yolov10.jpg" width="150"/> <br/> <img src="examples/duo_case2_yolov10.jpg" width="150"/> | <img src="examples/duo_case1_yolov8.jpg" width="150"/> <br/> <img src="examples/duo_case2_yolov8.jpg" width="150"/> |
+
+
+## 🔮 Conclusion
+The experimental results across four benchmark datasets and seven underwater environments show that **YOLOv11 consistently outperforms YOLOv8 and YOLOv10** in both **mAP@50** and **mAP@50-95**.
+
+- On **benchmark datasets (DUO, URPC2019, UDD, Brackish)**, YOLOv11 achieved the **highest scores in most cases**, especially on the stricter **mAP@50-95** metric.  
+- In **challenging URPC environments** with varying visibility and lighting, YOLOv11 maintained **superior and stable performance** across all seven test types.  
+
+The improvements are driven by architectural enhancements, enabling YOLOv11 to better capture fine-grained underwater object features.  
 
