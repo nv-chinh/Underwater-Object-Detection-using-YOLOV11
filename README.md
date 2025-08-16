@@ -52,3 +52,11 @@ To evaluate the performance of our model, we conducted experiments on four diver
   <img src="assets/brackish_3.jpg" width="22%" height="40%"/>
   <img src="assets/brackish_4.jpg" width="22%" height="40%"/>
 </p> 
+
+Below is the number of samples for training, validation, testing in each dataset used in this project:
+| Dataset    |   Train   |   Valid   |   Test   |
+|:----------:|:---------:|:---------:|:--------:|
+| DUO        |   5296    |   1321    |   1100   |
+| URPC_2019  |   3767    |    695    |    245   |
+| UDD        |   1892    |    223    |    111   |
+| Brackish   |  11739    |   1467    |   1468   |
