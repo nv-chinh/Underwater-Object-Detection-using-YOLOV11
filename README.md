@@ -36,6 +36,37 @@ To evaluate the performance of our model, we conducted experiments on four diver
   <img src="examples/urpc_4.jpg" width="22%" height="80%"/>
 </p> 
 
+Additionally, the URPC_2019 dataset provides test images from 7 different underwater environments (e.g., varying visibility, lighting, and background conditions). We use these additional test sets to further evaluate the robustness and generalization performance of the models.
+
+<p align="center"><strong>📸 Example Samples for 7 Different Environments</strong></p>
+
+<table align="center">
+  <tr>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type1.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 1</b></sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type2.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 2</b></sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type3.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 3</b></sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type4.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 4</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type5.jpg" width="200"/><br/><sub><b style="font-size: 15px;">Type 5</b></sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type6.jpg" width="200"/><br/><sub><b style="font-size: 15px;">Type 6</b></sub>
+    </td>
+    <td align="center" width="200px">
+      <img src="examples/urpc_type7.jpg" width="250"/><br/><sub><b style="font-size: 15px;">Type 7</b></sub>
+    </td>
+  </tr>
+</table>
 - **UDD Dataset**: A comprehensive underwater detection dataset. It includes **three classes**: *scallop, seacucumber, seaurchin*.
 <p align="center">
   <img src="examples/udd_1.jpg" width="22%" height="80%"/>
