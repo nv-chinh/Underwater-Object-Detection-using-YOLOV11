@@ -23,10 +23,10 @@ Compared to its predecessors, YOLOv11 introduces:
 To evaluate the performance of our model, we conducted experiments on four diverse and challenging underwater datasets:
 - **DUO Dataset**: A large-scale underwater object detection dataset containing diverse marine species. It includes **four classes**: *echinus, holothurian, scallop, starfish*.
   <p align="center">
-  <img src="assets/duo_1.jpg" width="200" height="300"/>
-  <img src="assets/duo_2.jpg" width="200" height="300"/>
-  <img src="assets/duo_3.jpg" width="200" height="300"/>
-  <img src="assets/duo_4.jpg" width="200" height="300"/>
+  <img src="assets/Duo_1.jpg" width="200" height="300"/>
+  <img src="assets/Duo_2.jpg" width="200" height="300"/>
+  <img src="assets/Duo_3.jpg" width="200" height="300"/>
+  <img src="assets/Duo_4.jpg" width="200" height="300"/>
 </p> 
 
 - **URPC2019 Dataset**: Released as part of the Underwater Robot Picking Contest 2019, featuring underwater objects under varying visibility and lighting conditions. Same as **DUO Dataset**, it also includes **four classes**: *echinus, holothurian, scallop, starfish*.  
