@@ -31,10 +31,10 @@ To evaluate the performance of our model, we conducted experiments on four diver
 
 - **URPC2019 Dataset**: Released as part of the Underwater Robot Picking Contest 2019, featuring underwater objects under varying visibility and lighting conditions. Same as **DUO Dataset**, it also includes **four classes**: *echinus, holothurian, scallop, starfish*.  
 <p align="center">
-  <img src="assets/urpc_1.jpg" width="22%" height="40%"/>
-  <img src="assets/urpc_2.jpg" width="22%" height="40%"/>
-  <img src="assets/urpc_3.jpg" width="22%" height="40%"/>
-  <img src="assets/urpc_4.jpg" width="22%" height="40%"/>
+  <img src="assets/urpc_1.jpg" width="22%" height="80%"/>
+  <img src="assets/urpc_2.jpg" width="22%" height="80%"/>
+  <img src="assets/urpc_3.jpg" width="22%" height="80%"/>
+  <img src="assets/urpc_4.jpg" width="22%" height="80%"/>
 </p> 
 
 - **UDD Dataset**: A comprehensive underwater detection dataset. It includes **three classes**: *scallop, seacucumber, seaurchin*.
