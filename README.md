@@ -12,7 +12,7 @@ Underwater object detection plays a critical role in **marine research, aquacult
 
 This project employ YOLOv11 - the latest version of yolo, and compare its performance with previous versions (YOLOv8 and YOLOv10) across multiple datasets. The goal is to evaluate how the modern YOLO architecture performs in challenging underwater environments.
 
-## YOLOv11: Key Advancements
+## 🚀 YOLOv11: Key Advancements
 YOLOv11 represents the latest evolution of the YOLO family, bringing improvements in both accuracy and efficiency. Comparing to its predecessors, YOLOv11 introduces:
 - **Stronger architecture**: Incorporates novel components including **C3k2**, **SPPF**, and **C2PSA**, which significantly enhance feature extraction and spatial focus. These architectural upgrades allow the model to better capture fine-grained details, making it more robust in complex detection tasks.
 - **Improved efficiency**: Optimized for faster inference without sacrificing accuracy, making it suitable for both research and real-time applications.
@@ -67,6 +67,7 @@ Additionally, the URPC_2019 dataset provides test images from 7 different underw
     </td>
   </tr>
 </table>
+
 - **UDD Dataset**: A comprehensive underwater detection dataset. It includes **three classes**: *scallop, seacucumber, seaurchin*.
 <p align="center">
   <img src="examples/udd_1.jpg" width="22%" height="80%"/>
@@ -90,3 +91,178 @@ Below is the number of samples for training, validation, testing in each dataset
 | URPC2019   |   3767    |    695    |    245   |
 | UDD        |   1892    |    223    |    111   |
 | Brackish   |  11739    |   1467    |   1468   |
+
+## 📈 Evaluation Results
+We evaluate the detection performance of **YOLOv11x**, **YOLOv10x**, and **YOLOv8x** across all datasets.
+
+The metrics used for comparison are:
+- **mAP@50**: Mean Average Precision at IoU threshold 0.5 (focuses on correct object localization).  
+- **mAP@50-95**: Mean Average Precision averaged across IoU thresholds from 0.5 to 0.95 (stricter and more comprehensive).
+
+### Results on benchmark datasets
+<table>
+  <tr>
+    <th>Dataset</th>
+    <th>Metric</th>
+    <th>YOLOv8x</th>
+    <th>YOLOv10x</th>
+    <th>YOLOv11x</th>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>DUO</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.513</td>
+    <td align="center">0.849</td>
+    <td align="center"><b>0.868</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.26</td>
+    <td align="center">0.678</td>
+    <td align="center"><b>0.72</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>URPC2019</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center"><b>0.877</b></td>
+    <td align="center">0.855</td>
+    <td align="center">0.874</td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.544</td>
+    <td align="center">0.508</td>
+    <td align="center"><b>0.56</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>UDD</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.685</td>
+    <td align="center">0.551</td>
+    <td align="center"><b>0.719</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.357</td>
+    <td align="center">0.25</td>
+    <td align="center"><b>0.389</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Brackish</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.988</td>
+    <td align="center">0.987</td>
+    <td align="center"><b>0.991</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.87</td>
+    <td align="center">0.85</td>
+    <td align="center"><b>0.886</b></td>
+  </tr>
+</table>
+
+### Results across different environments
+As mentioned above, we also conducted testing in 7 different environments of the URPC dataset to further assess model performance:
+
+<table>
+  <tr>
+    <th>Environment</th>
+    <th>Metric</th>
+    <th>YOLOv8x</th>
+    <th>YOLOv10x</th>
+    <th>YOLOv11x</th>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 1</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.662</td>
+    <td align="center">0.377</td>
+    <td align="center"><b>0.678</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.359</td>
+    <td align="center">0.178</td>
+    <td align="center"><b>0.383</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 2</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.639</td>
+    <td align="center">0.436</td>
+    <td align="center"><b>0.654</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.339</td>
+    <td align="center">0.203</td>
+    <td align="center"><b>0.349</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 3</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.738</td>
+    <td align="center">0.644</td>
+    <td align="center"><b>0.762</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.414</td>
+    <td align="center">0.332</td>
+    <td align="center"><b>0.44</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 4</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.584</td>
+    <td align="center">0.391</td>
+    <td align="center"><b>0.632</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.317</td>
+    <td align="center">0.18</td>
+    <td align="center"><b>0.349</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 5</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.702</td>
+    <td align="center">0.574</td>
+    <td align="center"><b>0.715</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.4</td>
+    <td align="center">0.278</td>
+    <td align="center"><b>0.411</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 6</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.524</td>
+    <td align="center">0.333</td>
+    <td align="center"><b>0.553</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.292</td>
+    <td align="center">0.154</td>
+    <td align="center"><b>0.307</b></td>
+  </tr>
+  <tr>
+    <td rowspan="2" align="center"><b>Type 7</b></td>
+    <td align="center">mAP@0.5</td>
+    <td align="center">0.785</td>
+    <td align="center">0.671</td>
+    <td align="center"><b>0.801</b></td>
+  </tr>
+  <tr>
+    <td align="center">mAP@0.5:0.95</td>
+    <td align="center">0.441</td>
+    <td align="center">0.345</td>
+    <td align="center"><b>0.468</b></td>
+  </tr>
+
+
