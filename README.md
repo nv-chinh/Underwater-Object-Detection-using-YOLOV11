@@ -164,7 +164,7 @@ The metrics used for comparison are:
 
 ### Results across different environments
 As mentioned above, we also conducted testing in 7 different environments of the URPC dataset to further assess model performance:
-
+**Results for Standard Environments**
 <table>
   <tr>
     <th>Environment</th>
@@ -268,10 +268,87 @@ As mentioned above, we also conducted testing in 7 different environments of the
 
 ## 📸 Model Prediction Examples
 
-|                                                 Ground Truth                                                |                                                        YOLOv11x                                                       |                                                        YOLOv10x                                                       |                                                       YOLOv8x                                                       |
-| :---------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
-| <img src="examples/duo_case1_gt.jpg" width="150"/> <br/> <img src="examples/duo_case2_gt.jpg" width="150"/> | <img src="examples/duo_case1_yolov11.jpg" width="150"/> <br/> <img src="examples/duo_case2_yolov11.jpg" width="150"/> | <img src="examples/duo_case1_yolov10.jpg" width="150"/> <br/> <img src="examples/duo_case2_yolov10.jpg" width="150"/> | <img src="examples/duo_case1_yolov8.jpg" width="150"/> <br/> <img src="examples/duo_case2_yolov8.jpg" width="150"/> |
+**Results for Standard Environment**
 
+<table>
+  <tr>
+    <th>Ground Truth</th>
+    <th>YOLOv11x</th>
+    <th>YOLOv10x</th>
+    <th>YOLOv8x</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/duo_1_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/duo_2_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/udd_1_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/udd_2_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/urpc_1_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov8.jpg" width="600"/></td>
+  </tr>
+</table>
+
+**Results for Diverse Environments of URPC Dataset**
+
+<table>
+  <tr>
+    <th>Ground Truth</th>
+    <th>YOLOv11x</th>
+    <th>YOLOv10x</th>
+    <th>YOLOv8x</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/duo_1_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/duo_2_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/udd_1_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/udd_2_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_yolov8.jpg" width="600"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="examples/urpc_1_gt.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov11.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov10.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov8.jpg" width="600"/></td>
+  </tr>
+</table>
 
 ## 🔮 Conclusion
 The experimental results across four benchmark datasets and seven underwater environments show that **YOLOv11 consistently outperforms YOLOv8 and YOLOv10** in both **mAP@50** and **mAP@50-95**.
