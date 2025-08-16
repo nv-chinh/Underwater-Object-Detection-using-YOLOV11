@@ -23,32 +23,32 @@ Compared to its predecessors, YOLOv11 introduces:
 To evaluate the performance of our model, we conducted experiments on four diverse and challenging underwater datasets:
 - **DUO Dataset**: A large-scale underwater object detection dataset containing diverse marine species. It includes **four classes**: *echinus, holothurian, scallop, starfish*.
   <p align="center">
-  <img src="assets/Duo_1.jpg" width="200" height="280"/>
-  <img src="assets/Duo_2.jpg" width="200" height="280"/>
-  <img src="assets/Duo_3.jpg" width="200" height="280"/>
-  <img src="assets/Duo_4.jpg" width="200" height="280"/>
+  <img src="assets/Duo_1.jpg" width="150" height="280"/>
+  <img src="assets/Duo_2.jpg" width="150" height="280"/>
+  <img src="assets/Duo_3.jpg" width="150" height="280"/>
+  <img src="assets/Duo_4.jpg" width="150" height="280"/>
 </p> 
 
 - **URPC2019 Dataset**: Released as part of the Underwater Robot Picking Contest 2019, featuring underwater objects under varying visibility and lighting conditions. Same as **DUO Dataset**, it also includes **four classes**: *echinus, holothurian, scallop, starfish*.  
 <p align="center">
-  <img src="assets/urpc_1.jpg" width="200" height="130"/>
-  <img src="assets/urpc_2.jpg" width="200" height="130"/>
-  <img src="assets/urpc_3.jpg" width="200" height="130"/>
-  <img src="assets/urpc_4.jpg" width="200" height="130"/>
+  <img src="assets/urpc_1.jpg" width="150" height="130"/>
+  <img src="assets/urpc_2.jpg" width="150" height="130"/>
+  <img src="assets/urpc_3.jpg" width="150" height="130"/>
+  <img src="assets/urpc_4.jpg" width="150" height="130"/>
 </p> 
 
 - **UDD Dataset**: A comprehensive underwater detection dataset. It includes **three classes**: *scallop, seacucumber, seaurchin*.
 <p align="center">
-  <img src="assets/udd_1.jpg" width="200" height="130"/>
-  <img src="assets/udd_2.jpg" width="200" height="130"/>
-  <img src="assets/udd_3.jpg" width="200" height="130"/>
-  <img src="assets/udd_4.jpg" width="200" height="130"/>
+  <img src="assets/udd_1.jpg" width="150" height="130"/>
+  <img src="assets/udd_2.jpg" width="150" height="130"/>
+  <img src="assets/udd_3.jpg" width="150" height="130"/>
+  <img src="assets/udd_4.jpg" width="150" height="130"/>
 </p> 
 
 - **Brackish Dataset**: Collected in brackish water environments, featuring species and objects that differ from open-sea datasets. It includes **six classes**: *crab, fish, jellyfish, shirmp, small fish, starfish*.
 <p align="center">
-  <img src="assets/brackish_1.jpg" width="200" height="400"/>
-  <img src="assets/brackish_2.jpg" width="200" height="400"/>
-  <img src="assets/brackish_3.jpg" width="200" height="400"/>
-  <img src="assets/brackish_4.jpg" width="200" height="400"/>
+  <img src="assets/brackish_1.jpg" width="150" height="400"/>
+  <img src="assets/brackish_2.jpg" width="150" height="400"/>
+  <img src="assets/brackish_3.jpg" width="150" height="400"/>
+  <img src="assets/brackish_4.jpg" width="150" height="400"/>
 </p> 
