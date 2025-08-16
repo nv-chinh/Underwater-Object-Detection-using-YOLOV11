@@ -42,28 +42,28 @@ Additionally, the URPC_2019 dataset provides test images from 7 different underw
 
 <table align="center">
   <tr>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type1.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 1</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type1.jpg" width="800"/><br/><sub><b style="font-size: 40px;">Type 1</b></sub>
     </td>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type2.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 2</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type2.jpg" width="800"/><br/><sub><b style="font-size: 40px;">Type 2</b></sub>
     </td>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type3.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 3</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type3.jpg" width="800"/><br/><sub><b style="font-size: 40px;">Type 3</b></sub>
     </td>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type4.jpg" width="800"/><br/><sub><b style="font-size: 15px;">Type 4</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type4.jpg" width="800"/><br/><sub><b style="font-size: 40px;">Type 4</b></sub>
     </td>
   </tr>
   <tr>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type5.jpg" width="200"/><br/><sub><b style="font-size: 15px;">Type 5</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type5.jpg" width="200"/><br/><sub><b style="font-size: 40px;">Type 5</b></sub>
     </td>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type6.jpg" width="200"/><br/><sub><b style="font-size: 15px;">Type 6</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type6.jpg" width="200"/><br/><sub><b style="font-size: 40px;">Type 6</b></sub>
     </td>
-    <td align="center" width="200px">
-      <img src="examples/urpc_type7.jpg" width="250"/><br/><sub><b style="font-size: 15px;">Type 7</b></sub>
+    <td align="center" width="400px" height=="400px">
+      <img src="examples/urpc_type7.jpg" width="250"/><br/><sub><b style="font-size: 40px;">Type 7</b></sub>
     </td>
   </tr>
 </table>
@@ -268,7 +268,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
 
 ## 📸 Model Prediction Examples
 
-**Results for Standard Environment**
+### Results for Standard Environment
 
 <table>
   <tr>
@@ -278,38 +278,38 @@ As mentioned above, we also conducted testing in 7 different environments of the
     <th>YOLOv8x</th>
   </tr>
   <tr>
-    <td align="center"><img src="examples/duo_1_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_1_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_1_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_1_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_1_gt.jpg" width="400"/></td>
+    <td align="center"><img src="examples/duo_1_yolov11.jpg" width="400"/></td>
+    <td align="center"><img src="examples/duo_1_yolov10.jpg" width="400"/></td>
+    <td align="center"><img src="examples/duo_1_yolov8.jpg" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/duo_2_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_2_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_2_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_2_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/duo_2_gt.jpg" width="400"/></td>
+    <td align="center"><img src="examples/duo_2_yolov11.jpg" width="400"/></td>
+    <td align="center"><img src="examples/duo_2_yolov10.jpg" width="400"/></td>
+    <td align="center"><img src="examples/duo_2_yolov8.jpg" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/udd_1_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_1_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_1_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_1_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_1_gt.jpg" width="400"/></td>
+    <td align="center"><img src="examples/udd_1_yolov11.jpg" width="400"/></td>
+    <td align="center"><img src="examples/udd_1_yolov10.jpg" width="400"/></td>
+    <td align="center"><img src="examples/udd_1_yolov8.jpg" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/udd_2_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_2_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_2_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_2_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/udd_2_gt.jpg" width="400"/></td>
+    <td align="center"><img src="examples/udd_2_yolov11.jpg" width="400"/></td>
+    <td align="center"><img src="examples/udd_2_yolov10.jpg" width="400"/></td>
+    <td align="center"><img src="examples/udd_2_yolov8.jpg" width="400"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/urpc_1_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/urpc_1_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/urpc_1_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/urpc_1_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/urpc_1_gt.jpg" width="400"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov11.jpg" width="400"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov10.jpg" width="400"/></td>
+    <td align="center"><img src="examples/urpc_1_yolov8.jpg" width="400"/></td>
   </tr>
 </table>
 
-**Results for Diverse Environments of URPC Dataset**
+### Results for Diverse Environments of URPC Dataset
 
 <table>
   <tr>
@@ -319,42 +319,42 @@ As mentioned above, we also conducted testing in 7 different environments of the
     <th>YOLOv8x</th>
   </tr>
   <tr>
-    <td align="center"><img src="examples/duo_1_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_1_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_1_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_1_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/type1_1_gt.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type1_1_yolov11.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type1_1_yolov10.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type1_1_yolov8.jpg" width="600" height="800"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/duo_2_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_2_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_2_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/duo_2_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/type2_1_gt.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type2_1_yolov11.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type2_1_yolov10.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type2_1_yolov8.jpg" width="600" height="800"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/udd_1_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_1_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_1_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_1_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/type3_1_gt.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type3_1_yolov11.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type3_1_yolov10.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type3_1_yolov8.jpg" width="600" height="800"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/udd_2_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_2_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_2_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/udd_2_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/type4_1_gt.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type4_1_yolov11.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type4_1_yolov10.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type4_1_yolov8.jpg" width="600" height="800"/></td>
   </tr>
   <tr>
-    <td align="center"><img src="examples/urpc_1_gt.jpg" width="600"/></td>
-    <td align="center"><img src="examples/urpc_1_yolov11.jpg" width="600"/></td>
-    <td align="center"><img src="examples/urpc_1_yolov10.jpg" width="600"/></td>
-    <td align="center"><img src="examples/urpc_1_yolov8.jpg" width="600"/></td>
+    <td align="center"><img src="examples/type5_1_gt.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type5_1_yolov11.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type5_1_yolov10.jpg" width="600" height="800"/></td>
+    <td align="center"><img src="examples/type5_1_yolov8.jpg" width="600" height="800"/></td>
   </tr>
 </table>
 
 ## 🔮 Conclusion
-The experimental results across four benchmark datasets and seven underwater environments show that **YOLOv11 consistently outperforms YOLOv8 and YOLOv10** in both **mAP@50** and **mAP@50-95**.
+The experimental results across four benchmark datasets and seven underwater environments show that **YOLOv11 consistently outperforms YOLOv8 and YOLOv10** in both **mAP@0.5** and **mAP@0.5-95**.
 
-- On **benchmark datasets (DUO, URPC2019, UDD, Brackish)**, YOLOv11 achieved the **highest scores in most cases**, especially on the stricter **mAP@50-95** metric.  
-- In **challenging URPC environments** with varying visibility and lighting, YOLOv11 maintained **superior and stable performance** across all seven test types.  
+- On **benchmark datasets (DUO, URPC2019, UDD, Brackish)**, YOLOv11 achieved the **highest scores in most cases**, especially on the stricter **mAP@0.5-95** metric.  
+- In **challenging URPC environments** with varying visibility and lighting, YOLOv11 also outperformed YOLOv8 and YOLOv10, achieving higher accuracy across all environment types, although performance varied slightly depending on the conditions.
 
 The improvements are driven by architectural enhancements, enabling YOLOv11 to better capture fine-grained underwater object features.  
 
