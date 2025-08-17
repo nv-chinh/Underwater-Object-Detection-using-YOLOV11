@@ -110,6 +110,7 @@ The metrics used for comparison are:
 <table>
   <tr>
     <th>Dataset</th>
+    <th>Image Size</th>
     <th>Metric</th>
     <th>YOLOv8x</th>
     <th>YOLOv10x</th>
@@ -117,6 +118,7 @@ The metrics used for comparison are:
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>DUO</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.513</td>
     <td align="center">0.849</td>
@@ -130,6 +132,7 @@ The metrics used for comparison are:
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>URPC2019</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center"><b>0.877</b></td>
     <td align="center">0.855</td>
@@ -143,6 +146,7 @@ The metrics used for comparison are:
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>UDD</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.685</td>
     <td align="center">0.551</td>
@@ -156,6 +160,7 @@ The metrics used for comparison are:
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Brackish</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.988</td>
     <td align="center">0.987</td>
@@ -175,6 +180,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
 <table>
   <tr>
     <th>Environment</th>
+    <th>Image Size</th>
     <th>Metric</th>
     <th>YOLOv8x</th>
     <th>YOLOv10x</th>
@@ -182,6 +188,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 1</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.662</td>
     <td align="center">0.377</td>
@@ -195,6 +202,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 2</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.639</td>
     <td align="center">0.436</td>
@@ -208,6 +216,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 3</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.738</td>
     <td align="center">0.644</td>
@@ -221,6 +230,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 4</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.584</td>
     <td align="center">0.391</td>
@@ -234,6 +244,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 5</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.702</td>
     <td align="center">0.574</td>
@@ -247,6 +258,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 6</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.524</td>
     <td align="center">0.333</td>
@@ -260,6 +272,7 @@ As mentioned above, we also conducted testing in 7 different environments of the
   </tr>
   <tr>
     <td rowspan="2" align="center"><b>Type 7</b></td>
+    <td rowspan="2" align="center">640</td>
     <td align="center">mAP@0.5</td>
     <td align="center">0.785</td>
     <td align="center">0.671</td>
